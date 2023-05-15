@@ -1,0 +1,129 @@
+Module-1(SDLC)
+
+1) What is software?
+-> software is a collection of codes,documents, and triggers that does a specific job and fills a specific requirement.In simple way we can say that software is the collection of programs which tells the computer what to do..
+
+: Engineering is the development of products using best practices,principles,and methods.
+
+-> software refers to set of instructions that are designed to perform specific tasks on a computer or other electronic device.software can be divided into two main types 1)system software,2) application software
+
+->software engineering- is the process of designing,creating,testing and maintaining software...
+
+
+2) Explain types of softwares
+
+-> 1) Operating system Software(OS)
+2) Productivity Software
+3) Utility Software
+4) Database Software
+5) Graphics Software
+6) Entertainment Software
+7) Educational Software
+8) Comuunication Software
+
+1) Operating System (OS) software: This is the software that runs on a computer or mobile device, managing its hardware resources and providing a platform for other software applications to run.
+
+2) Productivity software: This type of software is designed to help users perform tasks such as word processing, spreadsheet management, and creating presentations. Examples of productivity software include Microsoft Office, Google Workspace, and LibreOffice.
+
+3) Utility software: This type of software is designed to help users manage and optimize their computer's performance. Examples of utility software include antivirus programs, disk cleanup utilities, and backup software.
+
+4) Database software: This type of software is used to create, manage, and manipulate databases. Examples of database software include Oracle, MySQL, and Microsoft Access.
+
+5) Graphics software: This type of software is used to create and edit images, graphics, and multimedia content. Examples of graphics software include Adobe Photoshop, CorelDRAW, and GIMP.
+
+6) Entertainment software: This type of software is designed to provide entertainment and enjoyment to users. Examples of entertainment software include video games, music players, and video streaming services.
+
+7) Educational software: This type of software is designed to help students learn and improve their skills. Examples of educational software include language learning programs, typing tutors, and interactive science simulations.
+
+8) Communication software: This type of software is used to facilitate communication between users, either through email, instant messaging, video conferencing, or social media platforms. Examples of communication software include Skype, Slack, and WhatsApp.
+
+
+3) What is SDLC? Explain each phase of SDLC.
+->
+ The software development life cycle (SDLC) referes to a methodology with clearly defined processes for creating high-quality software.in detail,the SDLC methodology focuses in the following phases of software develeopment.
+
+1) Requirement Gathering:- To gather all requirements to build software or website
+2) Analysis:- Analysis of all the requirements
+3) Designing-Frontend Part-HTML,CSS,JS
+4) Coding or implementation-Backend Part-Python,Java,C,C++,PHP,.net,etc...
+5) Testing-To test the whole website or software
+6) Maintainence:- Maintain the website or software
+
+1) Requirements Gathering and Analysis:
+This phase involves understanding the needs and requirements of the software system to be developed. It includes gathering information from stakeholders, conducting interviews, and analyzing the existing system if applicable. The goal is to define the scope, functionalities, and constraints of the software.
+
+2) System Design:
+In this phase, the software's architecture and high-level design are created based on the requirements. The design may include components, modules, data structures, databases, user interfaces, and the overall system structure. The design phase helps ensure that the software will meet the specified requirements and provides a blueprint for the development phase.
+
+3) Implementation and Coding:
+During this phase, the actual coding and programming take place. Developers write the source code according to the design specifications using suitable programming languages and tools. It's important to follow coding standards, best practices, and documentation guidelines to ensure the code's quality and maintainability.
+
+4) Testing:
+The testing phase involves verifying and validating the software to ensure it functions as expected and meets the defined requirements. Different testing techniques, such as unit testing, integration testing, system testing, and user acceptance testing, are employed to identify defects and ensure quality. Bugs and issues found during testing are reported, tracked, and fixed.
+
+5) Deployment:
+Once the software has successfully passed testing and quality assurance, it is deployed to the production environment or made available to end-users. This phase may involve activities like installation, configuration, data migration, and user training. The deployment process should be carefully planned to minimize disruptions and ensure a smooth transition from development to the live environment.
+
+6) Maintenance and Support:
+After deployment, the software enters the maintenance phase, where it is monitored, updated, and enhanced as needed. Maintenance activities include bug fixes, performance optimizations, feature additions, and addressing user feedback. Ongoing technical support is provided to users, and the software's lifecycle continues until it is retired or replaced.
+
+
+4) What is DFD? Create a DFD diagram on Flipkart
+
+->DFD means Data Flow Diagram 
+-> It is a graphical representation of how data flows within a system or a processes.	It illustrates the movement of data from its source ,through various processes or transformations,to its destinations.DFDs are most commonly used in sofware engineering and systems analysis to depict the flow of information and provide a clear understanding of how a system functions.
+
+Diagram:- 
+
+---------
+|customer|-orders request--> online clothes-- send request-->clothes suppliers
+ --------  |                 order(t-shirt)                            |
+           |               (fulfillment process)                       |
+           |                         |                                 |
+           |        --------------------------------                   |
+           |       |                               |                   |
+           ----Order confirmation                 Product availability-
+                                    Payment
+                                   Information
+                                       |
+                                       |
+                                     Payment
+                                    Gateways
+
+
+5) What is Flow chart? Create a flowchart to make addition of two numbers.
+
+-> FLowchart is a graphical representation that represents workflow or process. It has a shapes like oval,parallelogram,rectangle,etc to describe the processes and to represent the calculations.
+The flowchart always start with start and it has oval shape and it ends with stop and it also has oval shape.
+
+                               Start
+                                 |
+                            Input numbers:a,b
+                                 |
+                               Sum=a+b
+                                 |
+                              Display sum
+                                 |
+                               Stop
+
+6) What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+-> A use case diagram is a visual representation of the functional requirements of a system. It illustrates the interactions between users (actors) and the system to achieve specific goals or tasks. Use cases depict the flow of actions and the system's responses in a clear and concise manner.
+
+-> In this use case diagram, we have one primary actor: the User. The main use case is "Pay Bill," representing the process of paying a bill on Paytm. The user interacts with the Paytm system to perform this action.
+
+Note: Use case diagrams can be more complex, with additional actors, use cases, and relationships, depending on the system's requirements. The above example is a simplified representation focusing solely on the bill payment feature.
+
+I hope this clarifies the concept of a use case diagram and provides an example related to bill payment on Paytm. Let me know if you have any further questions!
+
+
+
+                   User
+                    |
+          +---------|--------+
+          |                  |
+    Make payment         View transaction
+          |                  |
+          +------------------+
+
+
