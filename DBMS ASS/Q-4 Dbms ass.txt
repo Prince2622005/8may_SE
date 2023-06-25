@@ -1,0 +1,34 @@
+create table salesperson
+(
+   sno int PRIMARY key AUTO_INCREMENT,
+   sname varchar(20),
+    city varchar(20),
+    comm varchar(20)
+              
+   )
+
+INSERT INTO `salesperson` (`sno`, `sname`, `city`, `comm`) VALUES ('1001', 'Peel', 'London', '.12'), ('1002', 'Serres', 'San Jose', '.13'), ('1004', 'Motika', 'London', '.11'), ('1007', 'Rafkin', 'Barcelona', '.15'), ('1003', 'Axelrod', 'New York', '.1');
+
+
+create table customer
+(
+  cnm int PRIMARY key,
+  cname varchar(20),
+   city varchar(20),
+    rating int,
+    
+    sno fk int,
+    FOREIGN KEY(sno_fk) REFERENCES salesperson(sno)
+  )
+
+
+INSERT INTO `customer` (`cnm`, `cname`, `city`, `rating`, `sno_fk`) VALUES ('201', 'Hoffman', 'London', '100', '1001'), ('202', 'Giovanne', 'Roe', '200', '1003'), ('203', 'Liu', 'San Jose', '300', '1002'), ('204', 'Grass', 'Barcelona', '100', '1002'), ('206', 'Clemens', 'London', '300', '1007'), ('207', 'Pereira', 'Roe', '100', '1004');
+
+
+SELECT * FROM `salesperson` WHERE city="London" and sname="Peel"
+
+SELECT * FROM `customer` WHERE city in("London","barcelona")
+
+SELECT * FROM salesperson WHERE comm BETWEEN .10 AND .12
+
+Update customer set city="Rome" where rating<=100 
